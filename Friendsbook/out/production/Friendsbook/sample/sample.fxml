@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="606.0" style="-fx-background-color: #e0e6ff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <TabPane prefHeight="446.0" prefWidth="600.0" style="-fx-background-color: #e0e6ff;" tabClosingPolicy="UNAVAILABLE">
+            <tabs>
+                <Tab style="-fx-background-color: #e0e6ff; -fx-border-color: #c9d0ff;" text="Create a friend">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="612.0" prefWidth="600.0" style="-fx-background-color: #ffffff;">
+                            <children>
+                                <Label layoutX="197.0" layoutY="-5.0" prefHeight="84.0" prefWidth="224.0" text="Friends Book">
+                                    <font>
+                                        <Font name="Gabriola" size="54.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="41.0" layoutY="83.0" prefHeight="32.0" prefWidth="88.0" text="First Name:">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="321.0" layoutY="91.0" text="Last Name:">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="259.0" layoutY="143.0" text="Gender:">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="41.0" layoutY="306.0" text="Hobby:">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <TextField fx:id="txtfirstName" layoutX="119.0" layoutY="88.0" promptText="First name" style="-fx-background-color: #e8ecff;" />
+                                <TextField fx:id="txtlastName" layoutX="399.0" layoutY="87.0" prefHeight="25.0" prefWidth="154.0" promptText="Last name" style="-fx-background-color: #e8ecff;" />
+                                <TextField fx:id="txtHobby" layoutX="114.0" layoutY="302.0" prefHeight="25.0" prefWidth="155.0" promptText="Ex. Reading" style="-fx-background-color: #e8ecff;" />
+                                <TextField fx:id="txtProfession" layoutX="397.0" layoutY="241.0" prefHeight="25.0" prefWidth="158.0" promptText="Ex. Computer Programmer" style="-fx-background-color: #e8ecff;" />
+                                <Label layoutX="312.0" layoutY="239.0" prefHeight="29.0" prefWidth="88.0" text="Profession:">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Button fx:id="btnMale" layoutX="194.0" layoutY="170.0" mnemonicParsing="false" onAction="#maleFriend" prefHeight="35.0" prefWidth="79.0" style="-fx-background-color: #e8ecff;" text="Male">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font></Button>
+                                <Button fx:id="btnFemale" layoutX="297.0" layoutY="170.0" mnemonicParsing="false" onAction="#femaleFriend" prefHeight="35.0" prefWidth="79.0" style="-fx-background-color: #e8ecff;" text="Female">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font></Button>
+                                <Button fx:id="btnaddFriend" layoutX="220.0" layoutY="347.0" mnemonicParsing="false" onAction="#addFriend" prefHeight="39.0" prefWidth="154.0" style="-fx-background-color: #e8ecff;" text="Add Friend">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font></Button>
+                                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="46.0" layoutY="246.0" text="Phone:">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <TextField fx:id="txtNumber" layoutX="115.0" layoutY="243.0" prefHeight="25.0" prefWidth="155.0" promptText="Ex. 123 - 456 - 7890" style="-fx-background-color: #e8ecff;" />
+                        <TextField fx:id="txtAnimal" layoutX="399.0" layoutY="302.0" prefHeight="25.0" prefWidth="157.0" promptText="Ex. Cat" style="-fx-background-color: #e8ecff;" />
+                        <Label layoutX="341.0" layoutY="300.0" prefHeight="29.0" prefWidth="78.0" text="Animal:">
+                           <font>
+                              <Font name="Arial" size="15.0" />
+                           </font>
+                        </Label>
+                        <Line endX="338.0" endY="-259.0" layoutX="232.0" layoutY="324.0" startX="-209.0" startY="-259.0" stroke="#e8ecff" strokeWidth="3.0" />
+                        <Line endX="338.0" endY="-259.0" layoutX="232.0" layoutY="393.0" startX="-209.0" startY="-259.0" stroke="#e8ecff" strokeWidth="3.0" />
+                        <Line endX="338.0" endY="-259.0" layoutX="232.0" layoutY="479.0" startX="-209.0" startY="-259.0" stroke="#e8ecff" strokeWidth="3.0" />
+                            </children></AnchorPane>
+                    </content>
+                </Tab>
+                <Tab style="-fx-background-color: #e0e6ff; -fx-border-color: #c9d0ff;" text="Friends">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="388.0" prefWidth="600.0" style="-fx-background-color: #ffffff; -fx-border-color: #e8ecff;">
+                            <children>
+                                <ListView fx:id="displayFriends" layoutX="371.0" layoutY="73.0" onMouseClicked="#friendDescription" prefHeight="303.0" prefWidth="205.0" style="-fx-background-color: #e8ecff;" />
+                                <Label layoutX="399.0" layoutY="9.0" prefHeight="38.0" prefWidth="152.0" text="Your Friends:">
+                                    <font>
+                                        <Font name="Gabriola" size="33.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="67.0" layoutY="10.0" text="Friend Description:">
+                                    <font>
+                                        <Font name="Gabriola" size="33.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="42.0" layoutY="83.0" text="First Name -">
+                                    <font>
+                                        <Font name="Arial" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="41.0" layoutY="122.0" text="Last Name - ">
+                                    <font>
+                                        <Font name="Arial" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="40.0" layoutY="158.0" text="Gender -">
+                                    <font>
+                                        <Font name="Arial" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="42.0" layoutY="232.0" text="Hobby - ">
+                                    <font>
+                                        <Font name="Arial" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="43.0" layoutY="269.0" prefHeight="20.0" prefWidth="102.0" text="Profession -">
+                                    <font>
+                                        <Font name="Arial" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Button fx:id="btndeleteFriend" layoutX="138.0" layoutY="347.0" mnemonicParsing="false" onAction="#deleteFriend" style="-fx-background-color: #e8ecff;" text="Delete">
+                                    <font>
+                                        <Font name="Arial" size="17.0" />
+                                    </font></Button>
+                                <Label layoutX="41.0" layoutY="194.0" text="Phone Number -">
+                                    <font>
+                                        <Font name="Arial" size="17.0" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="lblfirstName" layoutX="394.0" layoutY="76.0" prefHeight="34.0" prefWidth="163.0" style="-fx-background-color: #e8ecff;" translateX="-250.0">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="lbllastName" layoutX="394.0" layoutY="118.0" prefHeight="31.0" prefWidth="162.0" style="-fx-background-color: #e8ecff;" translateX="-250.0">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="lblGender" layoutX="362.0" layoutY="156.0" prefHeight="29.0" prefWidth="193.0" style="-fx-background-color: #e8ecff;" translateX="-250.0">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="lblNumber" layoutX="421.0" layoutY="193.0" prefHeight="29.0" prefWidth="134.0" style="-fx-background-color: #e8ecff;" translateX="-250.0">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="lblHobby" layoutX="370.0" layoutY="230.0" prefHeight="29.0" prefWidth="185.0" style="-fx-background-color: #e8ecff;" translateX="-250.0">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="lblProfession" layoutX="389.0" layoutY="267.0" prefHeight="29.0" prefWidth="165.0" style="-fx-background-color: #e8ecff;" translateX="-250.0">
+                                    <font>
+                                        <Font name="Arial" size="15.0" />
+                                    </font>
+                                </Label>
+                        <Label layoutX="44.0" layoutY="305.0" prefHeight="20.0" prefWidth="75.0" text="Animal -">
+                           <font>
+                              <Font name="Arial" size="17.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lblAnimal" layoutX="113.0" layoutY="303.0" prefHeight="29.0" prefWidth="191.0" style="-fx-background-color: #e8ecff;">
+                           <font>
+                              <Font name="Arial" size="15.0" />
+                           </font>
+                        </Label>
+                        <Line endX="110.0" endY="65.0" layoutX="229.0" layoutY="304.0" startX="110.0" startY="-234.0" stroke="#e8ecff" strokeWidth="3.0" />
+                        <Line endX="338.0" endY="-259.0" layoutX="237.0" layoutY="314.0" startX="-209.0" startY="-259.0" stroke="#e8ecff" strokeWidth="3.0" />
+                            </children></AnchorPane>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </children>
+</VBox>
