@@ -1,0 +1,21 @@
+Test!
+Friend@
+Female#
+123-456-7890$
+Programming%
+BFF]
+;
+Testcase!
+Friend@
+Male#
+123-345-5678$
+Programming%
+Not Selected]
+;
+Jane!
+Forest@
+Female#
+778-112-334$
+Baking%
+BFF]
+;
