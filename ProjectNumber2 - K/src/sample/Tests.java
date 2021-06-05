@@ -24,6 +24,7 @@ public class Tests {
     }
 
     @Test
+    //Test all scenarios for Compare Plants method - False return
     public void testComparePlants() throws IOException {
         //New plant object
         plant = new Plant("Tomato2000", "Early Girl2000", "Fruit", "60 days", "15", "Selected");
@@ -36,6 +37,7 @@ public class Tests {
     }
 
     @Test
+    //Test all scenarios for Compare Plants method - True return
     public void testCompareTruePlants() throws IOException {
         //New plant object
         plant = new Plant("Tomato", "Roma Tomato", "Fruit", "75 days", "15 Tomatos", "Selected");
@@ -48,6 +50,7 @@ public class Tests {
     }
 
     @Test
+    //Test all scenarios for Create Plants method - Optional Plants
     public void testOptionalPlants() throws IOException {
 
         //Optional plants available in the Optional text file
@@ -67,6 +70,7 @@ public class Tests {
     }
 
     @Test
+    //Test all scenarios for Create Plants method - Selected Plants
     public void testSelectedPlants() throws IOException {
 
         //Selected plants available in the selected text file
@@ -87,6 +91,7 @@ public class Tests {
     }
 
     @Test
+    //Test all scenarios for Create Plants method - All Plants
     public void testAllPlants() throws IOException {
 
         //All plants available in the all text file
