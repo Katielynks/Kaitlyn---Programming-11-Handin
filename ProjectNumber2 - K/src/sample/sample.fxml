@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <tabs>
+      <Tab style="-fx-background-color: #e8ecff; -fx-border-color: #c9d0ff;" text="Home Page">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #ffffff;">
+               <children>
+                  <ImageView fitHeight="75.0" fitWidth="110.0" layoutX="247.0" layoutY="383.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Screenshot%202021-06-04%20094018.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="75.0" fitWidth="110.0" layoutX="152.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true" rotate="97.6">
+                     <image>
+                        <Image url="@../Screenshot%202021-06-04%20094018.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="75.0" fitWidth="110.0" layoutX="385.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true" rotate="-41.2">
+                     <image>
+                        <Image url="@../Screenshot%202021-06-04%20093858.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="75.0" fitWidth="110.0" layoutX="1.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Screenshot%202021-06-04%20093936.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="75.0" fitWidth="110.0" layoutX="-1.0" layoutY="288.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Screenshot%202021-06-04%20093858.jpg" />
+                     </image>
+                  </ImageView>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="163.0" layoutX="100.0" layoutY="206.0" stroke="#36d301" strokeType="INSIDE" strokeWidth="3.0" width="413.0" />
+                  <ImageView fitHeight="177.0" fitWidth="221.0" layoutX="453.0" layoutY="-51.0" pickOnBounds="true" preserveRatio="true" rotate="-90.0">
+                     <image>
+                        <Image url="@../Screenshot%202021-06-01%20154204.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="179.0" fitWidth="226.0" layoutX="-88.0" layoutY="-59.0" pickOnBounds="true" preserveRatio="true" rotate="63.7">
+                     <image>
+                        <Image url="@../Screenshot%202021-06-01%20154204.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="67.0" layoutY="61.0" prefHeight="87.0" prefWidth="479.0" text="Planting Plan" textFill="#00a405">
+                     <font>
+                        <Font name="Forte" size="76.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="28.0" layoutY="142.0" prefHeight="58.0" prefWidth="555.0" text="The garden plan to help gardeners plan for their next year's garden!" textAlignment="CENTER" textFill="#62c93f">
+                     <font>
+                        <Font name="Ebrima Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="119.0" fitWidth="242.0" layoutX="-32.0" layoutY="369.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Screenshot%202021-06-01%20153959.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="119.0" fitWidth="242.0" layoutX="376.0" layoutY="369.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Screenshot%202021-06-01%20153959.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="205.0" layoutY="220.0" text="1. Create your desired Plant">
+                     <font>
+                        <Font name="Ebrima" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="121.0" layoutY="296.0" text="3. View the plant to check if all fields are inputted correctly">
+                     <font>
+                        <Font name="Ebrima" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="112.0" layoutY="257.0" text="2. Put the plant in a category for selected or optional planting">
+                     <font>
+                        <Font name="Ebrima" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="169.0" layoutY="333.0" text="4. See your planned plants for planting!">
+                     <font>
+                        <Font name="Ebrima" size="14.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="81.0" fitWidth="68.0" layoutX="521.0" layoutY="293.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Screenshot%202021-06-04%20094049.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="70.0" fitWidth="83.0" layoutX="514.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true" rotate="98.5">
+                     <image>
+                        <Image url="@../Screenshot%202021-06-04%20093936.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="75.0" fitWidth="110.0" layoutX="274.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Screenshot%202021-06-04%20093936.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+        <Tab style="-fx-background-color: #e8ecff; -fx-border-color: #c9d0ff;" text="Create a Plant">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #ffffff;">
+                    <children>
+                  <ImageView fitHeight="132.0" fitWidth="205.0" layoutX="410.0" layoutY="384.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Screenshot%202021-06-01%20153959.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="132.0" fitWidth="205.0" layoutX="-22.0" layoutY="385.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Screenshot%202021-06-01%20153959.jpg" />
+                     </image>
+                  </ImageView>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="85.0" layoutX="151.0" layoutY="307.0" stroke="#8deed3" strokeType="INSIDE" strokeWidth="3.0" width="293.0" />
+                  <ImageView fitHeight="142.0" fitWidth="195.0" layoutX="472.0" layoutY="-43.0" pickOnBounds="true" preserveRatio="true" rotate="-103.5">
+                     <image>
+                        <Image url="@../Screenshot%202021-06-01%20154204.jpg" />
+                     </image>
+                  </ImageView>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="86.0" layoutX="395.0" layoutY="207.0" stroke="#8deed3" strokeType="INSIDE" strokeWidth="3.0" width="169.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="86.0" layoutX="216.0" layoutY="207.0" stroke="#8deed3" strokeType="INSIDE" strokeWidth="3.0" width="169.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="85.0" layoutX="37.0" layoutY="207.0" stroke="#8deed3" strokeType="INSIDE" strokeWidth="3.0" width="169.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="89.0" layoutX="310.0" layoutY="104.0" stroke="#8deed3" strokeType="INSIDE" strokeWidth="3.0" width="254.0" />
+                  <ImageView fitHeight="132.0" fitWidth="205.0" layoutX="-72.0" layoutY="-32.0" pickOnBounds="true" preserveRatio="true" rotate="140.2">
+                     <image>
+                        <Image url="@../Screenshot%202021-06-01%20154204.jpg" />
+                     </image>
+                  </ImageView>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="89.0" layoutX="38.0" layoutY="104.0" stroke="#8deed3" strokeType="INSIDE" strokeWidth="3.0" width="261.0" />
+                          <Label layoutX="127.0" layoutY="115.0" text="Plant Name">
+                              <font>
+                                  <Font name="Ebrima" size="16.0" />
+                              </font>
+                          </Label>
+                          <Label layoutX="418.0" layoutY="115.0" text="Type:">
+                              <font>
+                                  <Font name="Ebrima" size="16.0" />
+                              </font>
+                          </Label>
+                          <Label layoutX="87.0" layoutY="221.0" text="Category:">
+                              <font>
+                                  <Font name="Ebrima" size="16.0" />
+                              </font>
+                          </Label>
+                          <Label layoutX="269.0" layoutY="222.0" text="Maturity:">
+                              <font>
+                                  <Font name="Ebrima" size="16.0" />
+                              </font>
+                          </Label>
+                          <Label layoutX="460.0" layoutY="221.0" text="Yeild:">
+                              <font>
+                                  <Font name="Ebrima" size="16.0" />
+                              </font>
+                          </Label>
+                          <TextField fx:id="textPlantName" layoutX="51.0" layoutY="144.0" prefHeight="27.0" prefWidth="233.0" promptText="Ex. Tomato" style="-fx-background-color: #e8ecff;">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font></TextField>
+                          <TextField fx:id="textPlantType" layoutX="325.0" layoutY="144.0" prefHeight="27.0" prefWidth="225.0" promptText="Ex. Roma tomato" style="-fx-background-color: #e8ecff;">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font></TextField>
+                          <TextField fx:id="textCategory" layoutX="49.0" layoutY="246.0" prefHeight="27.0" prefWidth="144.0" promptText="Ex. Fruit" style="-fx-background-color: #e8ecff;">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font></TextField>
+                          <TextField fx:id="textMaturity" layoutX="228.0" layoutY="246.0" prefHeight="27.0" prefWidth="145.0" promptText="Ex. 75 days" style="-fx-background-color: #e8ecff;">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font></TextField>
+                        <Button fx:id="btnAddPlant" layoutX="228.0" layoutY="405.0" mnemonicParsing="false" onAction="#addPlant" prefHeight="41.0" prefWidth="138.0" style="-fx-background-color: #e8ecff;" text="Add Plant">
+                     <font>
+                        <Font name="Ebrima" size="16.0" />
+                     </font></Button>
+                        <Label fx:id="lblError" layoutX="97.0" layoutY="367.0" prefHeight="34.0" prefWidth="401.0" textAlignment="CENTER" textFill="#4f01b5" />
+                        <Label layoutX="167.0" layoutY="322.0" prefHeight="25.0" prefWidth="232.0" text="Selected for planting this spring">
+                            <font>
+                                <Font name="Ebrima" size="16.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="textYeild" layoutX="410.0" layoutY="245.0" prefHeight="27.0" prefWidth="139.0" promptText="Ex. 15 tomatos" style="-fx-background-color: #e8ecff;">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font></TextField>
+                  <Label layoutX="90.0" layoutY="11.0" prefHeight="84.0" prefWidth="425.0" text="Create a Plant" textFill="#00a405">
+                     <font>
+                        <Font name="Forte" size="67.0" />
+                     </font>
+                  </Label>
+                          <CheckBox fx:id="cbxSelected" layoutX="400.0" layoutY="325.0" mnemonicParsing="false" onAction="#setSelected" text=" " textFill="#00d346">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </CheckBox>
+                  <Label layoutX="165.0" layoutY="352.0" prefHeight="25.0" prefWidth="234.0" text="Optional for planting this spring">
+                     <font>
+                        <Font name="Ebrima" size="16.0" />
+                     </font>
+                  </Label>
+                  <CheckBox fx:id="cbxOptional" layoutX="400.0" layoutY="354.0" mnemonicParsing="false" onAction="#setOptional" text=" " textFill="#00cd41">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </CheckBox>
+                  <ImageView fitHeight="81.0" fitWidth="68.0" layoutX="47.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true" rotate="-17.1">
+                     <image>
+                        <Image url="@../Screenshot%202021-06-04%20094049.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="81.0" fitWidth="68.0" layoutX="479.0" layoutY="309.0" pickOnBounds="true" preserveRatio="true" rotate="91.8">
+                     <image>
+                        <Image url="@../Screenshot%202021-06-04%20094049.jpg" />
+                     </image>
+                  </ImageView>
+                    </children></AnchorPane>
+            </content>
+        </Tab>
+        <Tab style="-fx-background-color: #e8ecff; -fx-border-color: #c9d0ff;" text="New Plants">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #ffffff;">
+                    <children>
+                  <ImageView fitHeight="81.0" fitWidth="179.0" layoutX="-18.0" layoutY="398.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Screenshot%202021-06-01%20153959.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="46.0" fitWidth="99.0" layoutX="377.0" layoutY="418.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Screenshot%202021-06-04%20093936.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="46.0" fitWidth="99.0" layoutX="157.0" layoutY="418.0" pickOnBounds="true" preserveRatio="true" rotate="131.6">
+                     <image>
+                        <Image url="@../Screenshot%202021-06-04%20093936.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="78.0" fitWidth="178.0" layoutX="432.0" layoutY="397.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Screenshot%202021-06-01%20153959.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="139.0" fitWidth="169.0" layoutX="488.0" layoutY="-34.0" pickOnBounds="true" preserveRatio="true" rotate="-136.2">
+                     <image>
+                        <Image url="@../Screenshot%202021-06-01%20154204.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="111.0" fitWidth="170.0" layoutX="-49.0" layoutY="-28.0" pickOnBounds="true" preserveRatio="true" rotate="170.0">
+                     <image>
+                        <Image url="@../Screenshot%202021-06-01%20154204.jpg" />
+                     </image>
+                  </ImageView>
+                        <ListView fx:id="plantsList" disable="true" layoutX="38.0" layoutY="98.0" onMouseClicked="#displayPlant" prefHeight="317.0" prefWidth="241.0" style="-fx-background-color: #ccd5ff;" />
+                          <Label layoutX="331.0" layoutY="152.0" text="Plant:">
+                              <font>
+                                  <Font name="Arial" size="17.0" />
+                              </font>
+                          </Label>
+                          <Label layoutX="332.0" layoutY="199.0" text="Type:">
+                              <font>
+                                  <Font name="Arial" size="17.0" />
+                              </font>
+                          </Label>
+                          <Label layoutX="330.0" layoutY="248.0" text="Category:">
+                              <font>
+                                  <Font name="Arial" size="17.0" />
+                              </font>
+                          </Label>
+                          <Label layoutX="332.0" layoutY="295.0" text="Maturity:">
+                              <font>
+                                  <Font name="Arial" size="17.0" />
+                              </font>
+                          </Label>
+                          <Label layoutX="331.0" layoutY="344.0" text="Yeild:">
+                              <font>
+                                  <Font name="Arial" size="17.0" />
+                              </font>
+                          </Label>
+                          <Label layoutX="330.0" layoutY="390.0" text="Plan:">
+                              <font>
+                                  <Font name="Arial" size="17.0" />
+                              </font>
+                          </Label>
+                          <Label fx:id="lblPlantName" layoutX="382.0" layoutY="148.0" prefHeight="32.0" prefWidth="187.0" style="-fx-background-color: #e8ecff;">
+                              <font>
+                                  <Font size="14.0" />
+                              </font>
+                          </Label>
+                          <Label fx:id="lblPlantType" layoutX="383.0" layoutY="194.0" prefHeight="32.0" prefWidth="186.0" style="-fx-background-color: #e8ecff;">
+                              <font>
+                                  <Font size="14.0" />
+                              </font>
+                          </Label>
+                          <Label fx:id="lblCategory" layoutX="409.0" layoutY="242.0" prefHeight="31.0" prefWidth="158.0" style="-fx-background-color: #e8ecff;">
+                              <font>
+                                  <Font size="14.0" />
+                              </font>
+                          </Label>
+                          <Label fx:id="lblMaturity" layoutX="401.0" layoutY="289.0" prefHeight="31.0" prefWidth="166.0" style="-fx-background-color: #e8ecff;">
+                              <font>
+                                  <Font size="14.0" />
+                              </font>
+                          </Label>
+                          <Label fx:id="lblYeild" layoutX="380.0" layoutY="337.0" prefHeight="31.0" prefWidth="187.0" style="-fx-background-color: #e8ecff;">
+                              <font>
+                                  <Font size="14.0" />
+                              </font>
+                          </Label>
+                          <Label fx:id="lblPlan" layoutX="372.0" layoutY="384.0" prefHeight="31.0" prefWidth="195.0" style="-fx-background-color: #e8ecff;">
+                              <font>
+                                  <Font size="14.0" />
+                              </font>
+                  </Label>
+                        <Button fx:id="btnDeletePlant" disable="true" layoutX="441.0" layoutY="95.0" mnemonicParsing="false" onAction="#deletePlant" prefHeight="35.0" prefWidth="128.0" style="-fx-background-color: #e8ecff;" text="Delete Plants">
+                     <font>
+                        <Font name="Arial" size="17.0" />
+                     </font></Button>
+                        <Button fx:id="btnSave" disable="true" layoutX="312.0" layoutY="95.0" mnemonicParsing="false" onAction="#save" prefHeight="36.0" prefWidth="120.0" style="-fx-background-color: #e8ecff;" text="Save Plants">
+                            <font>
+                                <Font name="Arial" size="17.0" />
+                            </font>
+                        </Button>
+                        <Label fx:id="lblErrorTwo" layoutX="324.0" layoutY="131.0" prefHeight="17.0" prefWidth="233.0" />
+                  <Label layoutX="73.0" layoutY="27.0" prefHeight="41.0" prefWidth="190.0" text="Your Plants" textFill="#00a405">
+                     <font>
+                        <Font name="Forte" size="34.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="358.0" layoutY="28.0" text="Description" textFill="#00a405">
+                     <font>
+                        <Font name="Forte" size="35.0" />
+                     </font>
+                  </Label>
+                  <Line endX="565.0" endY="57.0" layoutY="23.0" startX="31.0" startY="57.0" stroke="#67c983" strokeWidth="3.0" />
+                  <ImageView fitHeight="46.0" fitWidth="99.0" layoutX="272.0" layoutY="418.0" pickOnBounds="true" preserveRatio="true" rotate="5.0">
+                     <image>
+                        <Image url="@../Screenshot%202021-06-04%20093858.jpg" />
+                     </image>
+                  </ImageView>
+                    </children></AnchorPane>
+            </content>
+        </Tab>
+        <Tab style="-fx-background-color: #e8ecff; -fx-border-color: #c9d0ff;" text="Your Plants">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #ffffff;">
+                    <children>
+                  <ImageView fitHeight="102.0" fitWidth="168.0" layoutX="507.0" layoutY="-28.0" pickOnBounds="true" preserveRatio="true" rotate="-136.7">
+                     <image>
+                        <Image url="@../Screenshot%202021-06-01%20154204.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="108.0" fitWidth="152.0" layoutX="-50.0" layoutY="-28.0" pickOnBounds="true" preserveRatio="true" rotate="167.5">
+                     <image>
+                        <Image url="@../Screenshot%202021-06-01%20154204.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="74.0" fitWidth="172.0" layoutX="444.0" layoutY="401.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Screenshot%202021-06-01%20153959.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="67.0" fitWidth="157.0" layoutX="-16.0" layoutY="407.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Screenshot%202021-06-01%20153959.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="62.0" layoutY="10.0" prefHeight="54.0" prefWidth="207.0" text="Saved Plants" textFill="#00a405">
+                     <font>
+                        <Font name="Forte" size="34.0" />
+                     </font>
+                  </Label>
+                        <Button fx:id="btnLoad" layoutX="467.0" layoutY="74.0" mnemonicParsing="false" onAction="#load" prefHeight="34.0" prefWidth="95.0" style="-fx-background-color: #e8ecff;" text="Load List">
+                     <font>
+                        <Font name="Arial" size="17.0" />
+                     </font></Button>
+                        <ListView fx:id="anyListOfPlants" disable="true" layoutX="30.0" layoutY="139.0" onMouseClicked="#displayPlantTwo" prefHeight="298.0" prefWidth="218.0" style="-fx-background-color: #ccd5ff;" />
+                        <Label fx:id="lblErrorThree" layoutX="465.0" layoutY="125.0" prefHeight="17.0" prefWidth="99.0" textFill="#4f00a4" />
+                          <CheckBox fx:id="cbxSelectedTwo" layoutX="57.0" layoutY="80.0" mnemonicParsing="false" onAction="#setSelectedList" text="Selected">
+                     <font>
+                        <Font name="Arial" size="17.0" />
+                     </font>
+                  </CheckBox>
+                          <CheckBox fx:id="cbxAllPlantsTwo" layoutX="334.0" layoutY="80.0" mnemonicParsing="false" onAction="#setAllPlantsList" text="All Plants">
+                     <font>
+                        <Font name="Arial" size="17.0" />
+                     </font>
+                  </CheckBox>
+                  <Line endX="565.0" endY="57.0" layoutY="6.0" startX="31.0" startY="57.0" stroke="#67c983" strokeWidth="3.0" />
+                          <Label layoutX="301.0" layoutY="145.0" text="Plant:">
+                              <font>
+                                  <Font name="Arial" size="17.0" />
+                              </font>
+                          </Label>
+                          <Label layoutX="301.0" layoutY="198.0" text="Type:">
+                              <font>
+                                  <Font name="Arial" size="17.0" />
+                              </font>
+                          </Label>
+                          <Label layoutX="301.0" layoutY="251.0" text="Category:">
+                              <font>
+                                  <Font name="Arial" size="17.0" />
+                              </font>
+                          </Label>
+                          <Label layoutX="302.0" layoutY="304.0" text="Maturity:">
+                              <font>
+                                  <Font name="Arial" size="17.0" />
+                              </font>
+                          </Label>
+                          <Label layoutX="302.0" layoutY="358.0" text="Yeild per plant:">
+                              <font>
+                                  <Font name="Arial" size="17.0" />
+                              </font>
+                          </Label>
+                          <Label layoutX="300.0" layoutY="409.0" text="Plan:">
+                              <font>
+                                  <Font name="Arial" size="17.0" />
+                              </font>
+                          </Label>
+                          <Label fx:id="lblPlantNameTwo" layoutX="349.0" layoutY="142.0" prefHeight="31.0" prefWidth="211.0" style="-fx-background-color: #e8ecff;">
+                              <font>
+                                  <Font name="Arial" size="17.0" />
+                              </font>
+                          </Label>
+                          <Label fx:id="lblPlantTypeTwo" layoutX="350.0" layoutY="194.0" prefHeight="31.0" prefWidth="212.0" style="-fx-background-color: #e8ecff;">
+                              <font>
+                                  <Font name="Arial" size="17.0" />
+                              </font>
+                          </Label>
+                          <Label fx:id="lblMaturityTwo" layoutX="374.0" layoutY="299.0" prefHeight="31.0" prefWidth="187.0" style="-fx-background-color: #e8ecff;">
+                              <font>
+                                  <Font name="Arial" size="17.0" />
+                              </font>
+                          </Label>
+                          <Label fx:id="lblYeildTwo" layoutX="423.0" layoutY="352.0" prefHeight="31.0" prefWidth="138.0" style="-fx-background-color: #e8ecff;">
+                              <font>
+                                  <Font name="Arial" size="17.0" />
+                              </font>
+                          </Label>
+                          <Label fx:id="lblPlanTwo" layoutX="347.0" layoutY="404.0" prefHeight="31.0" prefWidth="215.0" style="-fx-background-color: #e8ecff;">
+                              <font>
+                                  <Font name="Arial" size="17.0" />
+                              </font>
+                  </Label>
+                          <Label fx:id="lblCategoryTwo" layoutX="384.0" layoutY="247.0" prefHeight="31.0" prefWidth="178.0" style="-fx-background-color: #e8ecff;">
+                              <font>
+                                  <Font name="Arial" size="17.0" />
+                              </font>
+                          </Label>
+                  <Label layoutX="350.0" layoutY="17.0" text="Description" textFill="#00a405">
+                     <font>
+                        <Font name="Forte" size="34.0" />
+                     </font>
+                  </Label>
+                  <Line endX="269.0" endY="145.0" layoutX="5.0" layoutY="-3.0" startX="269.0" startY="432.0" stroke="#67c983" strokeWidth="3.0" />
+                  <CheckBox fx:id="cbxOptionalTwo" layoutX="192.0" layoutY="80.0" mnemonicParsing="false" onAction="#setOptionalList" text="Optional">
+                     <font>
+                        <Font name="Arial" size="17.0" />
+                     </font>
+                  </CheckBox>
+                  <Line endX="565.0" endY="57.0" layoutX="2.0" layoutY="65.0" startX="31.0" startY="57.0" stroke="#67c983" strokeWidth="3.0" />
+                    </children>
+                </AnchorPane>
+            </content>
+        </Tab>
+    </tabs>
+</TabPane>
